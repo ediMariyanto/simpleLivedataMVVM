@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleLiveDataMVVM</string>
+    <string name="login">Log In</string>
+
+</resources>

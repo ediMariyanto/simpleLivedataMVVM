@@ -1,0 +1,26 @@
+package id.co.kalacakra.dapen.repo;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
+
+import id.co.kalacakra.dapen.AppExecutors;
+import id.co.kalacakra.dapen.api.DapenService;
+
+@Singleton
+public class UserRepository {
+
+<<<<<<< working copy
+=======
+    private final DapenService dapenService;
+    private final AppExecutors appExecutors;
+
+    @Inject
+    public UserRepository(AppExecutors appExecutors, DapenService dapenService) {
+        this.dapenService = dapenService;
+        this.appExecutors = appExecutors;
+    }
+
+    public
+>>>>>>> merge rev
+
+}

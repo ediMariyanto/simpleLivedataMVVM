@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="297cd477-c922-46ed-9dc3-c0a536410510" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/AppExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/AppExecutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/DapenApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/SimpleLivedataMVVMApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/api/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/api/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/api/DapenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/api/AppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/binding/FragmentBindingAdapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/binding/FragmentBindingAdapters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/binding/FragmentDataBindingComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/binding/FragmentDataBindingComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/db/DapenDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/db/AppDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/AppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/AppComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/AppInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/AppInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/AppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/FragmentBuildersModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/FragmentBuildersModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/Injectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/Injectable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/MainActivityModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/MainActivityModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/ViewModelKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/ViewModelKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/di/ViewModelModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/ViewModelModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/repo/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/repo/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/ActivateFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/ActivateViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/registeremail/RegisterEmailFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/registeremail/RegisterEmailViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/verifikasiemail/VerifikasiEmailFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Activate/verifikasiemail/VerifikasiEmailViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/ProfileFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/ProfileViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/dataiuran/DataIuranFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/dataiuran/DataIuranViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/datapribadi/DataPribadiFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/datapribadi/DataPribadiViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/datasaldo/DataSaldoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/datasaldo/DataSaldoViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/infoprogram/InfoProgramFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/infoprogram/InfoProgramViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengajuanklaim/PengajuanKlaimFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengajuanklaim/PengajuanKlaimViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/PengaturanFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/PengaturanViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/gantiemail/GantiEmailFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/gantiemail/GantiEmailViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/gantinohp/GantiNohpFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/gantinohp/GantiNohpViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/ubahkatasandi/UbahKataSandiFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengaturan/ubahkatasandi/UbahKataSandiViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengkiniandata/PengkinianDataFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/pengkiniandata/PengkinianDataViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/simulasiiuran/SimulasiIuranFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/Profile/simulasiiuran/SimulasiIuranViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountHistoryEployerFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountHistoryEployerViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountHistoryPersonalFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountHistoryPersonalViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/AccountViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/DetailEmployerFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/DetailEmployerViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/DetailPersonalContributionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/account/DetailPersonalContributionViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/common/ProgressDialogHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/dashboard/DashboardFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/dashboard/DashboardViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/disbursement/DisbursementFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/disbursement/DisbursementViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/ui/login/LoginFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/login/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/ui/login/LoginViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/main/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/ui/main/MainFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/main/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/ui/main/MainViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/pension/PensionPlanFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/ui/pension/PensionPlanViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/AutoClearedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/AutoClearedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/ConnectivityReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/ConnectivityReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/GlobalFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/GlobalFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/LiveDataCallAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/LiveDataCallAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/LiveDataCallAdapterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/LiveDataCallAdapterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/NavigationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/NavigationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/NetworkBoundResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/NetworkBoundResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/util/SingleLiveEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/SingleLiveEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/viewModel/DapenViewModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/viewModel/DapenViewModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/vo/BankResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/vo/BankResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/vo/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/vo/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/vo/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/vo/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/vo/userManagement/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/vo/userManagement/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/dapen/vo/userManagement/RegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/vo/userManagement/RegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bacground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_button_logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_circle_shadow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_green.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_layout_shadow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_white1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/corner_whitecircle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_cameraa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle_shadow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_disbursement.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_hari_tua.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_hijau.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_hourglass.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_ajukan_klaim.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_data_iuran.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_data_pribadi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_data_saldo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_informasi_program.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_pelaporan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_pengkinian_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_simulasi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_kecelakaan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_kematian.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_main_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_account.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pengaturan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pensiun.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_personal_plan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_polygon_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_polygon_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_view_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/poto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shp_checkbox_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/state_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/account_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/account_history_eployer_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/account_history_personal_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activate_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/beneficiaries_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/beneficiaries_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dashboard_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/data_iuran_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/data_pribadi_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/data_saldo_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_employer_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_employer_layout_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_employer_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_personal_contribution_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_personal_layout_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detail_personal_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/disbursement_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ganti_email_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ganti_nohp_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/history_employer_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/history_employer_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/history_personal_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/history_personal_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/info_program_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_toolbars.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/penerimaan_mamfaat_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/penerimaan_mamfaat_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pengajuan_klaim_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pengaturan_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pengkinian_data_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pension_plan_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/register_email_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/riwayat_iuran_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/riwayat_iuran_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/simulasi_iuran_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ubah_kata_sandi_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/verifikasi_email_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/id/co/kalacakra/dapen/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/id/co/kalacakra/simpleLivedataMVVM/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6_API_28_width" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/viewModel/DapenViewModelFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/AppModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/Constant.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dapen" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Dapen" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="297cd477-c922-46ed-9dc3-c0a536410510" name="Default Changelist" comment="" />
+      <created>1570607466117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570607466117</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.32995737" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info active="true" anchor="bottom" id="Debug" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32936078" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/viewModel/DapenViewModelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/di/AppModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/co/kalacakra/simpleLivedataMVVM/util/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="hg4idea.settings">
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+</project>

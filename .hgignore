@@ -1,0 +1,13 @@
+syntax: glob
+.gradle/*
+.idea/*
+Dapen.iml
+app/app.iml
+app/build/*
+app/release/*
+app/src/androidTest/*
+build/intermediates/*
+gradle.properties
+gradle/wrapper/*
+gradlew.bat
+local.properties

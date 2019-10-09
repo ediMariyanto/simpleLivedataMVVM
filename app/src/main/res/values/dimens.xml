@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="popup_width_margin">10dp</dimen>
+
+    <!--/////// use for expandable textview///////////-->
+    <dimen name="sp_txt_size_content">14sp</dimen>
+
+    <!-- text item searching -->
+    <dimen name="txt_size">13sp</dimen>
+
+    <!--layout content-->
+    <dimen name="lc_padding_left">10dp</dimen>
+    <dimen name="lc_padding_right">10dp</dimen>
+    <dimen name="lc_padding_top">10dp</dimen>
+    <dimen name="lc_padding_bottom">10dp</dimen>
+
+    <!--layout button-->
+    <dimen name="lb_margin_left">20dp</dimen>
+    <dimen name="lb_margin_right">20dp</dimen>
+    <dimen name="lb_margin_top">20dp</dimen>
+    <dimen name="lb_margin_bottom">28dp</dimen>
+    <dimen name="lb_height">47dp</dimen>
+
+    <!--layout toolbar-->
+    <dimen name="lt_height">56dp</dimen>
+    <dimen name="lt_padding_right">15dp</dimen>
+    <dimen name="lt_padding_left">15dp</dimen>
+    <dimen name="lt_padding_top">18dp</dimen>
+    <dimen name="lt_padding_bottom">18dp</dimen>
+
+    <!--layout title toolbar-->
+    <dimen name="lt_title_textsize">16sp</dimen>
+
+
+    <!--/////////Style Welcome Page//////////-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">80dp</dimen>
+    <dimen name="img_width_height">200dp</dimen>
+    <dimen name="slide_title">20dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="calendar_text_small">12sp</dimen>
+
+
+    <dimen name="font_size">12sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="height_for_additional_item_payment_detail">20dp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="button_height">47dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--special setup for each layout-->
+    <!--Login-->
+    <!--<dimen name="input_text">16sp</dimen>-->
+    <!--&lt;!&ndash;<dimen name="save_user_id_text" >14sp</dimen>&ndash;&gt;-->
+    <!--<dimen name="forget_password_text_size">16sp</dimen>-->
+    <!--<dimen name="button_text_size" >14sp</dimen>-->
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+<!--    <include layout="@layout/layout_toolbars" / > Test Edi push-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frml_container_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity" />
+        
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:background="@color/colorWhite1"-->
+<!--            app:itemIconTint="@drawable/state_list"-->
+<!--            app:itemTextColor="@drawable/state_list"-->
+<!--            app:menu="@menu/menu_main_drawer">-->
+
+<!--        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+    </RelativeLayout>
+
+</LinearLayout>
